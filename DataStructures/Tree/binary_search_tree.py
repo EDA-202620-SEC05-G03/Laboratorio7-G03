@@ -89,7 +89,7 @@ def remove_node(root, key):
     return root
 
 def contains(my_bst, key):
-    return get(my_bst['root'], key) is not None
+    return get(my_bst, key) is not None
 
 def is_empty(my_bst):
     return my_bst['root'] is None
